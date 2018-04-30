@@ -16,6 +16,10 @@ namespace Exercise1
 
             //Part 2 
             Console.WriteLine(13 + 11);
+
+            //Part 3
+            Console.WriteLine(10 / 2);
+
             Console.ReadKey();
         }
     }
