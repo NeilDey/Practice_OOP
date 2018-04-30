@@ -41,6 +41,18 @@ namespace Exercise1
             Console.WriteLine("New Value of X: " + x);
             Console.WriteLine("New Value of Y: " + y);
 
+            //Part 6
+            Console.WriteLine("\n \n ");
+
+            int num1, num2, num3;
+            Console.Write("Enter the first number: ");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the second number: ");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the third number: ");
+            num3 = Convert.ToInt32(Console.ReadLine());
+            int result = num1 * num2 * num3;
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
