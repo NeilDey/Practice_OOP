@@ -14,7 +14,8 @@ namespace Exercise1
             Console.WriteLine("Hello World!");
             Console.WriteLine("Neil Dey");
 
-           
+            //Part 2 
+            Console.WriteLine(13 + 11);
             Console.ReadKey();
         }
     }
