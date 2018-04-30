@@ -29,6 +29,18 @@ namespace Exercise1
             Console.WriteLine(14 + -4 * 6 / 11);
             Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);
 
+            //Part 5
+            Console.WriteLine("\n \n ");
+            int x = 5;
+            int y = 10;
+            Console.WriteLine("Original Value of X: " + x);
+            Console.WriteLine("Original Value of Y: " + y);
+            int temp = x;
+            x = y;
+            y = temp;
+            Console.WriteLine("New Value of X: " + x);
+            Console.WriteLine("New Value of Y: " + y);
+
             Console.ReadKey();
         }
     }
