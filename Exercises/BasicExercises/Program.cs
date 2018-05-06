@@ -43,7 +43,6 @@ namespace Exercise1
 
             //Part 6
             Console.WriteLine("\n \n ");
-
             int num1, num2, num3;
             Console.Write("Enter the first number: ");
             num1 = Convert.ToInt32(Console.ReadLine());
@@ -53,6 +52,20 @@ namespace Exercise1
             num3 = Convert.ToInt32(Console.ReadLine());
             int result = num1 * num2 * num3;
             Console.WriteLine(result);
+
+            //Part 7
+            Console.WriteLine("\n \n ");
+            Console.Write("Enter first number: ");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter second number: ");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("{0} + {1} = {2}", number1, number2, number1 + number2);
+            Console.WriteLine("{0} - {1} = {2}", number1, number2, number1 - number2);
+            Console.WriteLine("{0} x {1} = {2}", number1, number2, number1 * number2);
+            Console.WriteLine("{0} / {1} = {2}", number1, number2, number1 / number2);
+            Console.WriteLine("{0} mod {1} = {2}", number1, number2, number1 % number2);
             Console.ReadKey();
         }
     }
