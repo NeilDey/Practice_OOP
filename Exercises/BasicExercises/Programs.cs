@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise1
 {
-    class Program
+    class Programs
     {
         static void Main(string[] args) {
             //Part 1
@@ -78,6 +78,37 @@ namespace Exercise1
                 Console.WriteLine(p8num1 * i);
             }
             Console.ReadKey();
+
+            Console.WriteLine("/n /n");
+            Console.WriteLine("Moving to part 2");
+            part2();
+        }
+
+        static void part2() {
+            //Part 9
+            Console.WriteLine("\n \n ");
+
+            double number1, number2, number3, number4;
+
+            Console.Write("Enter number one: ");
+            number1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter number two:  ");
+            number2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter number three:  ");
+            number3 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter number four:  ");
+            number4 = Convert.ToDouble(Console.ReadLine());
+
+            double result = (number1 + number2 + number3 + number4) / 4;
+            Console.WriteLine("The average of {0}, {1}, {2}, {3} is: {4} ",
+         number1, number2, number3, number4, result);
+
+
+           
         }
     }
-}
+    }
+
