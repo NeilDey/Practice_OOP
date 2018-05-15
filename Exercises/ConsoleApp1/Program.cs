@@ -58,7 +58,34 @@ namespace ConsoleApp1
 
             Console.WriteLine("Kelvin = " + (celsius + 273));
             Console.WriteLine("Fahrenheit = " + (celsius * 18 / 10 + 32));
+
+            //Part 15
+            Console.WriteLine("\n \n ");
+
+            Console.WriteLine(remove_char("Test", 1));
+            Console.WriteLine(remove_char("Test", 2));
+            Console.WriteLine(remove_char("Test", 0));
+
+            //Part 16
+            Console.WriteLine("\n \n ");
+
+            Console.WriteLine(Swap_first_with_last("yeet"));
+            Console.WriteLine(Swap_first_with_last("Paperjack"));
+        }
+
+        private static String Swap_first_with_last(string v)
+        {
+            string answer;
+            answer = (v.Substring(1, v.Length - 1));
+            answer += v[0];
+            return answer;
+        }
+
+        public static string remove_char(string str, int n)
+        {
+            return str.Remove(n, 1);
         }
     }
 }
+
 
