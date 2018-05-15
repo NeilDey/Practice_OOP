@@ -8,7 +8,8 @@ namespace Exercise1
 {
     class Programs
     {
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
             //Part 1
             Console.WriteLine("\n \n ");
             Console.WriteLine("Hello World!");
@@ -66,7 +67,7 @@ namespace Exercise1
             Console.WriteLine("{0} x {1} = {2}", number1, number2, number1 * number2);
             Console.WriteLine("{0} / {1} = {2}", number1, number2, number1 / number2);
             Console.WriteLine("{0} mod {1} = {2}", number1, number2, number1 % number2);
-          
+
 
             //Part 8 
             Console.WriteLine("\n \n ");
@@ -74,7 +75,8 @@ namespace Exercise1
             Console.WriteLine("Enter a number to get it's multiplication table");
             int p8num1 = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i <= 10; i++) {
+            for (int i = 0; i <= 10; i++)
+            {
                 Console.WriteLine(p8num1 * i);
             }
             Console.ReadKey();
@@ -84,7 +86,8 @@ namespace Exercise1
             part2();
         }
 
-        static void part2() {
+        static void part2()
+        {
             //Part 9
             Console.WriteLine("\n \n ");
 
@@ -125,5 +128,5 @@ namespace Exercise1
                 num1, num2, num3, ((num1 + num2) * num3), (num1 * num2 + num2 * num3));
         }
     }
-    }
+}
 
