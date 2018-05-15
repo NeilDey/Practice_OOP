@@ -37,6 +37,8 @@ namespace ConsoleApp1
             Console.WriteLine("{0}{0}{0}{0}", userNum);
 
             //Part 13
+            Console.WriteLine("\n \n ");
+
             int num;
 
             Console.Write("Enter a digit: ");
@@ -47,6 +49,15 @@ namespace ConsoleApp1
             Console.WriteLine("{0} {0}", num);
             Console.WriteLine("{0} {0}", num);
             Console.WriteLine("{0}{0}{0}", num);
+
+            //Part 14
+            Console.WriteLine("\n \n ");
+
+            Console.Write("Enter temperature in C ");
+            int celsius = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Kelvin = " + (celsius + 273));
+            Console.WriteLine("Fahrenheit = " + (celsius * 18 / 10 + 32));
         }
     }
 }
