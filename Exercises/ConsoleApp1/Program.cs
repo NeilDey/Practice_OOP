@@ -97,8 +97,22 @@ namespace ConsoleApp1
 
             }
 
+            //Part 19
+            Console.WriteLine("\n \n ");
+
+            P19Sum(2, 3);
+            P19Sum(2, 2);
+
+
         }
 
+        //Part 19 Method
+        public static int P19Sum(int a, int b)
+        {
+            return a == b ? (a + b) * 3 : a + b;
+        }
+
+        //Part 16 Method
         private static String Swap_first_with_last(string v)
         {
             string answer;
@@ -107,6 +121,7 @@ namespace ConsoleApp1
             return answer;
         }
 
+        //Part 15 Method
         public static string remove_char(string str, int n)
         {
             return str.Remove(n, 1);
