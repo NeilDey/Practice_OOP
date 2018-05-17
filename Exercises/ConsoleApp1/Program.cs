@@ -111,7 +111,15 @@ namespace ConsoleApp1
 
             //Part 21
             Console.WriteLine("\n \n ");
+            CheckForTwenty(10, 10);
+            CheckForTwenty(2, 5);
+            CheckForTwenty(20, 10);
+        }
 
+        //Part 21 Method
+        private static void CheckForTwenty(int a, int b)
+        {
+            Console.WriteLine(a == 20 || b == 20 || (a+b) == 20);
         }
 
         //Part 20 Method
