@@ -79,8 +79,23 @@ namespace ConsoleApp1
             string str = Console.ReadLine();
             char charAtStart = str[0];
             Console.WriteLine(charAtStart + str + charAtStart);
-            
-           
+
+            //Part 18
+            Console.WriteLine("\n \n ");
+
+            Console.WriteLine("Enter 2 numbers");
+            int numero1 = Convert.ToInt32(Console.ReadLine());
+            int numero2 = Convert.ToInt32(Console.ReadLine());
+
+            if (numero1 > 0 ^ numero2 > 0)
+            {
+                Console.WriteLine("true");
+            }
+            else
+            {
+                Console.WriteLine("false");
+
+            }
 
         }
 
