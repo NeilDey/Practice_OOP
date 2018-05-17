@@ -71,6 +71,17 @@ namespace ConsoleApp1
 
             Console.WriteLine(Swap_first_with_last("yeet"));
             Console.WriteLine(Swap_first_with_last("Paperjack"));
+
+            //Part 17
+            Console.WriteLine("\n \n ");
+
+            Console.WriteLine("Please Enter a String");
+            string str = Console.ReadLine();
+            char charAtStart = str[0];
+            Console.WriteLine(charAtStart + str + charAtStart);
+            
+           
+
         }
 
         private static String Swap_first_with_last(string v)
