@@ -103,7 +103,21 @@ namespace ConsoleApp1
             P19Sum(2, 3);
             P19Sum(2, 2);
 
+            //Part 20
+            Console.WriteLine("\n \n ");
 
+            AbsoluteDifference(20, 30);
+            AbsoluteDifference(30, 20);
+
+            //Part 21
+            Console.WriteLine("\n \n ");
+
+        }
+
+        //Part 20 Method
+        private static void AbsoluteDifference(int a, int b)
+        {
+            Console.WriteLine(Math.Abs(a - b));
         }
 
         //Part 19 Method
