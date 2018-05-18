@@ -150,6 +150,39 @@ namespace ConsoleApp1
                     Console.WriteLine(n.ToString());
                 }
             }
+
+            //Part 26
+            Console.WriteLine("\n \n ");
+            int num1 ;
+
+            Console.WriteLine("Accept number:");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            if (IsPrime(num1))
+            {
+                Console.WriteLine("It is prime");
+            }
+            else
+            {
+                Console.WriteLine("It is not prime");
+            }
+
+        }
+
+        //Part 26 Method
+        public static bool IsPrime(int number)
+        {
+            if (number == 1) return false;
+            if (number == 2) return true;
+            if (number % 2 == 0) return false;
+
+            var boundary = (int)Math.Floor(Math.Sqrt(number));
+
+            for (int i = 3; i <= boundary; i += 2)
+            {
+                if (number % i == 0) return false;
+            }
+
+            return true;
         }
 
         //Part 21 Method
