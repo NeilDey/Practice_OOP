@@ -153,7 +153,7 @@ namespace ConsoleApp1
 
             //Part 26
             Console.WriteLine("\n \n ");
-            int num1 ;
+            int num1;
 
             Console.WriteLine("Accept number:");
             num1 = Convert.ToInt32(Console.ReadLine());
@@ -165,6 +165,19 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("It is not prime");
             }
+
+            //Part 27
+            Console.Write("Input  a number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            int sum = 0;
+
+            while (number != 0)
+            {
+                sum += number % 10;
+                number /= 10;
+            }
+            Console.WriteLine("Sum of digits : " + sum);
 
         }
 
@@ -188,7 +201,7 @@ namespace ConsoleApp1
         //Part 21 Method
         private static void CheckForTwenty(int a, int b)
         {
-            Console.WriteLine(a == 20 || b == 20 || (a+b) == 20);
+            Console.WriteLine(a == 20 || b == 20 || (a + b) == 20);
         }
 
         //Part 20 Method
