@@ -111,9 +111,16 @@ namespace ConsoleApp1
 
             //Part 21
             Console.WriteLine("\n \n ");
+
             CheckForTwenty(10, 10);
             CheckForTwenty(2, 5);
             CheckForTwenty(20, 10);
+
+            //Part 23
+            Console.WriteLine("\n \n ");
+
+            string line = "The quick brown fox jumped over the lazy dog";
+            Console.WriteLine(line.ToLower());
         }
 
         //Part 21 Method
