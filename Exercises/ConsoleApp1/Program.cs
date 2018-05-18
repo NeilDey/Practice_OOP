@@ -123,6 +123,8 @@ namespace ConsoleApp1
             Console.WriteLine(line.ToLower());
 
             //Part 24
+            Console.WriteLine("\n \n ");
+
             string largestString = "";
             string input = "The quick brown fox jumped over the lazy dog";
             string[] wordArray = input.Split(' ');
@@ -137,6 +139,17 @@ namespace ConsoleApp1
 
             }
             Console.WriteLine("Largest word is: " + largestString);
+
+            //Part 25
+            Console.WriteLine("\n \n ");
+
+            for (int n = 1; n < 100; n++)
+            {
+                if (n % 2 != 0)
+                {
+                    Console.WriteLine(n.ToString());
+                }
+            }
         }
 
         //Part 21 Method
